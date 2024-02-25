@@ -1,35 +1,30 @@
-/* ul {
-    list-style: none;
-    display: block;
-}
-
-.note-title {
-    color: rgb(200, 150,200);
-    display: block;
-}
-
-.note-text {
-    color: rgb(100, 150,200);
-    display: block;
-} */
-
 .notes {
     width: 80%;
-}
-
-.notes li {
+  }
+  .notes li {
     margin-bottom: 20px;
     list-style: none;
     padding: 0px;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: left;
-}
-
-button {
+  }
+  button {
     width: 100%;
     border: none;
     background: none;
     padding: 20px;
     cursor: pointer;
-}
+  }
+  nav button {
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 10pt;
+    border: none;
+    text-decoration: none;
+  }
+  

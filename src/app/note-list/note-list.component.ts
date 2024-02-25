@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { NOTES, Note } from '../../notes';
+import { NOTES } from '../../notes';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-note-list',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './note-list.component.html',
   styleUrl: './note-list.component.css'
 })
